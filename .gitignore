@@ -1,0 +1,12 @@
+data/
+*.csv
+*.txt
+*.h5
+*.keras
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.npz
+
+# Plantilla LaTeX antigua y documentación personal, no forma parte del código
+memoria/

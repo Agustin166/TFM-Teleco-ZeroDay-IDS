@@ -1,0 +1,17 @@
+name: tfm-zero-day
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10.13
+  - pip
+  - pip:
+      - tensorflow==2.10.0
+      - numpy==1.26.4
+      - pandas==2.3.3
+      - scikit-learn==1.7.2
+      - scipy==1.15.3
+      - matplotlib==3.10.8
+      - joblib==1.5.3
+      - dpkt==1.9.8
+      - kagglehub==1.0.0
+      - ipykernel==7.2.0
